@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sckinetics"
+version = "1.0"
+authors = []
+description = "scKINETICS (Key regulatory Interaction NETwork for Inferring Cell Speed), a dynamical model of gene expression change which is fit with the simultaneous learning of per-cell transcriptional velocities and a governing gene regulatory network"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+dependencies = [
+	"pandas",
+	"numpy",
+	"scanpy",
+	"scipy >=1.11.2",
+	"tqdm",
+	"matplotlib",
+	"numba",
+	"joblib",
+	"seaborn",
+	"scikit-learn",
+	"biopython",
+	"ucsc_genomes_downloader",
+	"gimmemotifs",
+	"rpy2",
+	"MOODS-python",
+	"scvelo"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dpeerlab/scKINETICS"
+"Bug Tracker" = "https://github.com/dpeerlab/scKINETICS"
