@@ -20,7 +20,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: MIT License",
-    ],
+    ]
     install_requires=[
         "pandas",
         "numpy",
