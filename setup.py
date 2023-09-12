@@ -35,7 +35,6 @@ setuptools.setup(
         "biopython",
         "ucsc_genomes_downloader",
         "gimmemotifs",
-        "rpy2",
         "MOODS-python",
         "scvelo"
     ],
